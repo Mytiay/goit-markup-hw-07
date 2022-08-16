@@ -1,0 +1,44 @@
+.options-flex{
+    display: flex;
+    column-gap: 30px;}
+    
+    .options-card{
+    display: flex;
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F4FA;
+    }
+    
+    .options-icon{
+    width: 70px;
+    height: 70px;}
+    
+    
+    .options-list{
+    width: 270px;
+    }
+    
+    .options-title{
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    }
+    
+    .visually-hidden{
+    position: fixed;
+    transform: scale(0);
+    }
+    
+    .options-text{
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    }
