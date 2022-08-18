@@ -35,7 +35,6 @@ img {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  /* outline: 2px solid tomato; */
 }
 
 .section {
@@ -47,9 +46,9 @@ img {
   color: var(--accent-color);
   text-decoration: none;
   font-family: raleway, sans-serif, cursive;
-  font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
+  font-weight: 700;
   letter-spacing: 0.03em;
   padding-top: 24px;
   padding-bottom: 24px;
@@ -62,14 +61,14 @@ img {
   border-radius: 4px;
   cursor: pointer;
   font-family: inherit;
-  font-weight: 700;
   font-size: 16px;
-  line-height: 1.88;
+  line-height: 1.16;
+  font-weight: 700;
   letter-spacing: 0.06em;
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  max-height: 50px;
-  max-width: 200px;
+  height: 50px;
+  width: 200px;
 }
 
 .button:hover,
@@ -108,15 +107,15 @@ img {
   margin-left: 93px;
 }
 .header-nav .link {
+  font-size: 14px;
+  line-height: 1.14;
+  font-weight: 500;
+  letter-spacing: 0.02em;
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
   color: var(--primary-text-color);
   text-decoration: none;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -163,9 +162,9 @@ img {
   padding-top: 32px;
   padding-bottom: 32px;
   text-decoration: none;
-  font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  font-weight: 500;
   letter-spacing: 0.02em;
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -197,9 +196,9 @@ img {
 
 .hero-title {
   color: var(--white-text-color);
-  font-weight: 900;
   font-size: 44px;
-  line-height: 1.3;
+  line-height: 1.4;
+  font-weight: 900;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   margin-bottom: 30px;
@@ -304,9 +303,9 @@ img {
   border-radius: 4px;
   cursor: pointer;
   font-family: inherit;
-  font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
+  font-weight: 500;
   letter-spacing: 0.03em;
   padding: 6px 22px 6px 22px;
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -323,9 +322,9 @@ img {
 
 .portfolio-title {
   color: var(--primary-text-color);
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
+  font-weight: 700;
   letter-spacing: 0.06em;
   margin-top: 0;
   margin-bottom: 4px;
@@ -377,9 +376,9 @@ img {
 
 .options-title {
   color: var(--primary-text-color);
-  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  font-weight: 700;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-bottom: 10px;
@@ -414,11 +413,11 @@ img {
 .work-item {
   position: absolute;
   bottom: 0;
-  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  text-align: center;
+  font-weight: 700;
   letter-spacing: 0.03em;
+  text-align: center;
   text-transform: uppercase;
   color: var(--white-text-color);
   background: rgba(47, 48, 58, 0.8);
@@ -441,11 +440,11 @@ img {
 
 .work-title {
   color: var(--primary-text-color);
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
-  text-align: center;
+  font-weight: 700;
   letter-spacing: 0.03em;
+  text-align: center;
   margin-bottom: 50px;
 }
 
@@ -470,11 +469,11 @@ img {
 
 .team-title {
   color: var(--primary-text-color);
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
-  text-align: center;
+  font-weight: 700;
   letter-spacing: 0.03em;
+  text-align: center;
   margin-bottom: 50px;
 }
 
@@ -483,9 +482,9 @@ img {
 }
 
 .team-name {
-  font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
+  font-weight: 500;
   letter-spacing: 0.03em;
   margin-bottom: 10px;
 }
@@ -531,11 +530,11 @@ img {
 
 .clients-title {
   color: var(--primary-text-color);
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
-  text-align: center;
+  font-weight: 700;
   letter-spacing: 0.03em;
+  text-align: center;
   margin-bottom: 50px;
 }
 
@@ -614,9 +613,9 @@ img {
 }
 
 .footer-title {
-  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  font-weight: 700;
   letter-spacing: 0.03em;
   color: var(--white-text-color);
   text-transform: uppercase;
@@ -744,9 +743,9 @@ img {
 }
 
 .footer-message {
-  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  font-weight: 700;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--white-text-color);
@@ -816,16 +815,18 @@ img {
 
 .modal-title {
   margin-bottom: 12px;
-  font-weight: 700;
   font-size: 20px;
   line-height: 1.15;
-  text-align: center;
+  font-weight: 700;
   letter-spacing: 0.03em;
+  text-align: center;
   color: #212121;
 }
 
 .modal-input {
   outline: none;
+  font-size: 12px;
+  font-weight: 600;
   font-size: 12px;
   font-weight: 600;
   width: 100%;
@@ -898,18 +899,18 @@ img {
 
 .modal-label {
   display: block;
-  margin-bottom: 4px;
   font-size: 12px;
   line-height: 1.16;
-  color: var(--secondary-text-color);
   letter-spacing: 0.01em;
+  margin-bottom: 4px;
+  color: var(--secondary-text-color);
 }
 
 .modal-area {
   font-size: 12px;
   line-height: 1.16;
-  color: var(--secondary-text-color);
   letter-spacing: 0.01em;
+  color: var(--secondary-text-color);
   margin-bottom: 20px;
 }
 

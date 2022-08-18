@@ -44,16 +44,14 @@
     
     .modal-title{
     margin-bottom: 12px;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 1.15;
+    @include font(20px, 1.15, 700, 0.03em);
     text-align: center;
-    letter-spacing: 0.03em;
     color: #212121;
     }
     
     .modal-input{
     outline: none;
+    @include font(12px, null, 600, null);
     font-size: 12px;
     font-weight: 600;
     width: 100%;
@@ -66,10 +64,7 @@
         border: 1px solid #2196F3;
         }
         &::placeholder{
-            font-size: 12px;
-            line-height: 1.16;
-            font-weight: 400;
-            letter-spacing: 0.01em;
+            @include font(12px, 1.16, 400, 0.01em);
             color: rgba(117, 117, 117, 0.5);
             }
     }
@@ -93,17 +88,14 @@
     
     .modal-label{
     display: block;
+    @include font(12px, 1.16, null, 0.01em);
     margin-bottom: 4px;
-    font-size: 12px;
-    line-height: 1.16;
     color: var(--secondary-text-color);
-    letter-spacing: 0.01em;}
+    }
     
     .modal-area{
-    font-size: 12px;
-    line-height: 1.16;
+    @include font(12px, 1.16, null, 0.01em);
     color: var(--secondary-text-color);
-    letter-spacing: 0.01em;
     margin-bottom: 20px;
     }
     
@@ -120,8 +112,7 @@
     &:focus{
         border: 1px solid #2196F3;}
         &::placeholder{
-            font-size: 12px;
-            line-height: 1.16;
+            @include font(12px, 1.16, null, null);
             color: rgba(117, 117, 117, 0.5);
             }
     }
@@ -132,9 +123,7 @@
     
     .modal-checkbox-text{
     display: inline-block;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
+    @include font(14px, 1.71, null, 0.03em);
     color: var(--secondary-text-color);
     margin-bottom: 30px;
     display: flex;
