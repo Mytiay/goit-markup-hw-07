@@ -1,16 +1,9 @@
-.clients-title{
-    color: var(--primary-text-color);
-    @include font(36px, 1.16, 700, 0.03em);
-    text-align: center;
-    margin-bottom: 50px;
-    }
-    
-    .clients-flex{
+    .clients__flex{
     display: flex;
     gap: 30px;
     }
     
-    .clients-icon{
+    .clients__icon{
     display: flex;
     justify-content: center;
     align-items: center;

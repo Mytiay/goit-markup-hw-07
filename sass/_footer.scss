@@ -5,7 +5,7 @@
     padding-bottom: 60px;
     }
     
-    .footer-container{
+    .footer__container{
     margin-right: 70px;
     > .logo{
         padding: 0;
@@ -14,18 +14,18 @@
         }
     }
     
-    .logo-botom {
+    .footer__logo {
     color:  var(--white-text-color);
     }
     
-    .footer-address{
+    .footer__address{
     color: #ffffff;
     @include font(14px, 1.7, null, 0.03em);
     margin-bottom: 9px;
     font-style: normal;
     }
     
-    .footer-contacts{
+    .footer__contacts{
         > a{
             color: rgba(255, 255, 255, 0.6);
             @include font(14px, 1.7, null, 0.03em);
@@ -43,21 +43,9 @@
     margin-bottom: 20px;
     }
     
-    .footer-list{
-    display: flex;
-    gap: 10px;
-    }
-    
     .footer-icon{
     fill: var(--white-text-color);
-    width: 44px;
-    height: 44px;
-    background-color: rgba(255, 255, 255, 10%);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    background-color: rgba(255, 255, 255, 10%);;
     &:hover,
     &:focus{
     background-color: var(--accent-color);
@@ -69,11 +57,18 @@
     align-items: baseline;
     }
     
-    .footer-subscribe{
+    .subscribe{
     margin-left: auto;
     }
+
+    .subscribe__text{
+    @include font(14px, 1.14, 700, 0.03em);
+    text-transform: uppercase;
+    color: var(--white-text-color);
+    margin-bottom: 20px;
+    }
     
-    .footer-input{
+    .subscribe__input{
     outline: none;
     padding:0 0 0 16px;
     height: 50px;
@@ -92,11 +87,11 @@
         }
     } 
     
-    .footer-form{
+    .subscribe__form{
     display: flex;
     }  
     
-    .footer-btn{
+    .subscribe__btn{
     display: flex;
     align-items: center;
     text-align: center;
@@ -105,16 +100,11 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     }
                
-    .footer-svg{
+    .subscribe__svg{
     margin-left: 10px;
     }
     
-    .footer-message{
-    @include font(14px, 1.14, 700, 0.03em);
-    text-transform: uppercase;
-    color: var(--white-text-color);
-    margin-bottom: 20px;
-    }
+
     
     .link{
         list-style: none;

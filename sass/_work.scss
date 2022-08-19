@@ -1,13 +1,13 @@
-.work-flex{
+.work__flex{
     display: flex;
     gap: 30px;
     }
     
-    .work-list{
+    .work__list{
     position: relative;
     display: flex;}
     
-    .work-item{
+    .work__item{
     position: absolute;
     bottom: 0;
     @include font(14px, 1.14, 700, 0.03em);
@@ -21,12 +21,8 @@
     align-items: center;
     justify-content: center;
     }
-    .work{
-    padding-top: 0;}
     
-    .work-title{
-    color: var(--primary-text-color);
-    @include font(36px, 1.16, 700, 0.03em);
-    text-align: center;
-    margin-bottom: 50px;
-    }
+    .work{
+    padding-top: 0;
+}
+    

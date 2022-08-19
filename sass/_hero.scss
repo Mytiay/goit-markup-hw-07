@@ -1,8 +1,8 @@
-.hero-btn{
+.hero__btn{
     padding: 10px 31px;
     }
     
-    .hero-overlay {
+    .hero {
     margin-right: auto;
     margin-left: auto;
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../images/Hero.jpg');
@@ -16,17 +16,14 @@
     text-align: center;
     }
     
-    .hero-title {
+    .hero__title {
     color: var(--white-text-color);
     @include font(44px, 1.4, 900, 0.06em);
     text-transform: uppercase;
     margin-bottom: 30px;
-    padding: 0 15px;
     }
     
-    .hero-container {
+    .hero__container {
     max-width: 696px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0 15px;
+    padding: 0;
     }
