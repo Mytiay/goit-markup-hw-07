@@ -42,7 +42,7 @@
         
 .button:hover,
 .button:focus{
-    background-color: #188CE8;
+    background-color: var(--accent-color-hover);
     }
 
 .soc{
@@ -52,7 +52,7 @@
     }
 
 .soc__link{
-    fill: #AFB1B8;
+    fill: var(--primary-fill-color);
     width: 44px;
     height: 44px;
     border-radius: 50%;
@@ -61,8 +61,8 @@
     justify-content: center;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     &:focus, &:hover{
-        fill: #ffffff;
-        background-color: #188CE8;
+        fill: var(--white-text-color);
+        background-color: var(--accent-color-hover);
         }
     }
         

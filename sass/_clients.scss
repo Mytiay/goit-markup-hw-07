@@ -7,8 +7,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    fill: #AFB1B8;
-    border: 1px solid #AFB1B8;
+    fill: var(--primary-fill-color);
+    border: 1px solid var(--primary-fill-color);
     border-radius: 4px;
     width: 170px;
     height: 92px;
